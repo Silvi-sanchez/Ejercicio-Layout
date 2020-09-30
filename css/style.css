@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e6e6e6;
+}
+
+header, main, footer{
+    width: 90%;
+    margin: 20px auto;
+}
+
+header nav{
+    background-color: #528fd5;
+    overflow: hidden;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    float: left;
+}
+
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    padding: 10px 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    background-color: #75acec;
+}
+
+section{
+    width: 69%;
+    float: left;
+    margin-right: 1%;
+}
+
+aside{
+    width: 30%;
+    background-color: #ff800f;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+aside h3{
+    text-align: center;
+}
+
+article{
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    clear: both;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+figure{
+    padding: 30px;
+}
+
+h2{
+    text-align: center;
+}
+
+/*.fondo1{
+    background-image: url(../img/perrito1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} /*imagen de fondo directamente desde css
+
